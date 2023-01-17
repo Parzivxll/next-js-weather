@@ -14,7 +14,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false)
 
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.NEXT_PUBLIC_WEATHER_KEY}`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=27f1f5cdbf4b5ec530e66d461a33e3e6`
 
   const fetchWeather = (e) => {
     e.preventDefault()
